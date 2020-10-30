@@ -6,6 +6,8 @@
  * Determine the blocks on the smiley and non smiley that are DIFFERENT from each one and plot each one in a toggle block.
  * 
  * Put a "pause" block between the first two toggles and the last two toggles.
+ * 
+ * I did the first one for you.
  */
 /**
  * PART 1:
@@ -20,5 +22,5 @@
  */
 led.plot(1, 0)
 basic.forever(function () {
-	
+    led.toggle(0, 2)
 })
