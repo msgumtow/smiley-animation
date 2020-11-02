@@ -6,8 +6,6 @@
  * Determine the blocks on the smiley and non smiley that are DIFFERENT from each one and plot each one in a toggle block.
  * 
  * Put a "pause" block between the first two toggles and the last two toggles.
- * 
- * I did the first one for you.
  */
 /**
  * PART 1:
@@ -18,9 +16,8 @@
  * 
  * Use these plot blocks to plot the coordinates -->
  * 
- * Put each plot block in "on start" one by one to see if it's in the right place. I did the first one for you.
+ * Put each plot block in "on start" one by one to see if it's in the right place.
  */
-led.plot(1, 0)
 basic.forever(function () {
-    led.toggle(0, 2)
+	
 })
